@@ -1,0 +1,28 @@
+{
+  "name": "escrow_test",
+  "version": "1.0.0",
+  "main": "escrowService.js",
+  "scripts": {
+    "test": "node test-runner.js",
+    "test:watch": "node --watch test-runner.js",
+    "demo": "node -e \"require('./escrowService.js'); demonstrateEscrowAPI();\"",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "escrow",
+    "api",
+    "payment",
+    "transaction",
+    "sandbox"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Test suite for Escrow.com API endpoints",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "node-fetch": "^3.3.2"
+  }
+}
